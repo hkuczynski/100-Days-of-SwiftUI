@@ -17,6 +17,7 @@ struct ContentView: View {
     @State private var correctAnswer = Int.random(in: 0...2)
     @State private var score = 0
     @State private var attempts = 0
+    @State private var tappedFlagIndex: Int? = nil
     
     var body: some View {
         ZStack {
@@ -54,11 +55,27 @@ struct ContentView: View {
                     
                     ForEach(0..<3) { number in
                         Button {
-                            flagTapped(number)
+                            withAnimation(.spring(duration: 3, bounce: 0.5)) {
+                                       print("start \(String(describing: tappedFlagIndex))")
+                                       tappedFlagIndex = number
+                                       print("end \(String(describing: tappedFlagIndex))")
+                                   }
+                                   
+                                   // Delay the execution of the completion code to roughly match the animation duration
+                                   DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                                       print("completion \(String(describing: tappedFlagIndex))")
+                                       flagTapped(number)
+                                       tappedFlagIndex = nil
+                                   }
+                            
                         } label: {
                             Image(countries[number])
                                 .clipShape(.capsule)
                                 .shadow(radius: 5)
+                                .rotation3DEffect(
+                                    .degrees(tappedFlagIndex == number ? 360 : 0), axis: (x: 0.0, y: 1.0, z: 0.0)
+                                )
+                                .opacity((tappedFlagIndex == number || tappedFlagIndex == nil) ? 1 : 0.25)
                         }
                     }
                 }
