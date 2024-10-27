@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		66099C6F2BCC4D3A00B2F435 /* GuessTheFlagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66099C6E2BCC4D3A00B2F435 /* GuessTheFlagApp.swift */; };
-		66099C712BCC4D3A00B2F435 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66099C702BCC4D3A00B2F435 /* ContentView.swift */; };
-		66099C732BCC4D3B00B2F435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66099C722BCC4D3B00B2F435 /* Assets.xcassets */; };
-		66099C772BCC4D3B00B2F435 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66099C762BCC4D3B00B2F435 /* Preview Assets.xcassets */; };
+		661CFE412C29BC73008D35A4 /* MultiplicationQuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661CFE402C29BC73008D35A4 /* MultiplicationQuizApp.swift */; };
+		661CFE432C29BC73008D35A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661CFE422C29BC73008D35A4 /* ContentView.swift */; };
+		661CFE452C29BC75008D35A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 661CFE442C29BC75008D35A4 /* Assets.xcassets */; };
+		661CFE492C29BC75008D35A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 661CFE482C29BC75008D35A4 /* Preview Assets.xcassets */; };
+		661CFE502C29BD92008D35A4 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661CFE4F2C29BD92008D35A4 /* GameState.swift */; };
+		661CFE522C29BDD7008D35A4 /* MaxNumberSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661CFE512C29BDD7008D35A4 /* MaxNumberSelectionView.swift */; };
+		661CFE542C29BDFE008D35A4 /* QuestionsCountSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661CFE532C29BDFE008D35A4 /* QuestionsCountSelectionView.swift */; };
+		661CFE562C29BE10008D35A4 /* GameInProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661CFE552C29BE10008D35A4 /* GameInProgressView.swift */; };
+		661CFE582C29BE1D008D35A4 /* GameFinishedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661CFE572C29BE1D008D35A4 /* GameFinishedView.swift */; };
+		661CFE5A2C29BF3E008D35A4 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661CFE592C29BF3E008D35A4 /* GameViewModel.swift */; };
+		661CFE5C2C29C7E7008D35A4 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661CFE5B2C29C7E7008D35A4 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		66099C6B2BCC4D3A00B2F435 /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		66099C6E2BCC4D3A00B2F435 /* GuessTheFlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagApp.swift; sourceTree = "<group>"; };
-		66099C702BCC4D3A00B2F435 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		66099C722BCC4D3B00B2F435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		66099C742BCC4D3B00B2F435 /* GuessTheFlag.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GuessTheFlag.entitlements; sourceTree = "<group>"; };
-		66099C762BCC4D3B00B2F435 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		661CFE3D2C29BC73008D35A4 /* MultiplicationQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiplicationQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		661CFE402C29BC73008D35A4 /* MultiplicationQuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationQuizApp.swift; sourceTree = "<group>"; };
+		661CFE422C29BC73008D35A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		661CFE442C29BC75008D35A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		661CFE462C29BC75008D35A4 /* MultiplicationQuiz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MultiplicationQuiz.entitlements; sourceTree = "<group>"; };
+		661CFE482C29BC75008D35A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		661CFE4F2C29BD92008D35A4 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		661CFE512C29BDD7008D35A4 /* MaxNumberSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxNumberSelectionView.swift; sourceTree = "<group>"; };
+		661CFE532C29BDFE008D35A4 /* QuestionsCountSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsCountSelectionView.swift; sourceTree = "<group>"; };
+		661CFE552C29BE10008D35A4 /* GameInProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInProgressView.swift; sourceTree = "<group>"; };
+		661CFE572C29BE1D008D35A4 /* GameFinishedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFinishedView.swift; sourceTree = "<group>"; };
+		661CFE592C29BF3E008D35A4 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		661CFE5B2C29C7E7008D35A4 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		66099C682BCC4D3A00B2F435 /* Frameworks */ = {
+		661CFE3A2C29BC73008D35A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,38 +47,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		66099C622BCC4D3A00B2F435 = {
+		661CFE342C29BC73008D35A4 = {
 			isa = PBXGroup;
 			children = (
-				66099C6D2BCC4D3A00B2F435 /* GuessTheFlag */,
-				66099C6C2BCC4D3A00B2F435 /* Products */,
+				661CFE3F2C29BC73008D35A4 /* MultiplicationQuiz */,
+				661CFE3E2C29BC73008D35A4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		66099C6C2BCC4D3A00B2F435 /* Products */ = {
+		661CFE3E2C29BC73008D35A4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				66099C6B2BCC4D3A00B2F435 /* GuessTheFlag.app */,
+				661CFE3D2C29BC73008D35A4 /* MultiplicationQuiz.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		66099C6D2BCC4D3A00B2F435 /* GuessTheFlag */ = {
+		661CFE3F2C29BC73008D35A4 /* MultiplicationQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				66099C6E2BCC4D3A00B2F435 /* GuessTheFlagApp.swift */,
-				66099C702BCC4D3A00B2F435 /* ContentView.swift */,
-				66099C722BCC4D3B00B2F435 /* Assets.xcassets */,
-				66099C742BCC4D3B00B2F435 /* GuessTheFlag.entitlements */,
-				66099C752BCC4D3B00B2F435 /* Preview Content */,
+				661CFE402C29BC73008D35A4 /* MultiplicationQuizApp.swift */,
+				661CFE422C29BC73008D35A4 /* ContentView.swift */,
+				661CFE442C29BC75008D35A4 /* Assets.xcassets */,
+				661CFE462C29BC75008D35A4 /* MultiplicationQuiz.entitlements */,
+				661CFE472C29BC75008D35A4 /* Preview Content */,
+				661CFE4F2C29BD92008D35A4 /* GameState.swift */,
+				661CFE512C29BDD7008D35A4 /* MaxNumberSelectionView.swift */,
+				661CFE532C29BDFE008D35A4 /* QuestionsCountSelectionView.swift */,
+				661CFE552C29BE10008D35A4 /* GameInProgressView.swift */,
+				661CFE572C29BE1D008D35A4 /* GameFinishedView.swift */,
+				661CFE592C29BF3E008D35A4 /* GameViewModel.swift */,
+				661CFE5B2C29C7E7008D35A4 /* Question.swift */,
 			);
-			path = GuessTheFlag;
+			path = MultiplicationQuiz;
 			sourceTree = "<group>";
 		};
-		66099C752BCC4D3B00B2F435 /* Preview Content */ = {
+		661CFE472C29BC75008D35A4 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				66099C762BCC4D3B00B2F435 /* Preview Assets.xcassets */,
+				661CFE482C29BC75008D35A4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -72,39 +93,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		66099C6A2BCC4D3A00B2F435 /* GuessTheFlag */ = {
+		661CFE3C2C29BC73008D35A4 /* MultiplicationQuiz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 66099C7A2BCC4D3B00B2F435 /* Build configuration list for PBXNativeTarget "GuessTheFlag" */;
+			buildConfigurationList = 661CFE4C2C29BC75008D35A4 /* Build configuration list for PBXNativeTarget "MultiplicationQuiz" */;
 			buildPhases = (
-				66099C672BCC4D3A00B2F435 /* Sources */,
-				66099C682BCC4D3A00B2F435 /* Frameworks */,
-				66099C692BCC4D3A00B2F435 /* Resources */,
+				661CFE392C29BC73008D35A4 /* Sources */,
+				661CFE3A2C29BC73008D35A4 /* Frameworks */,
+				661CFE3B2C29BC73008D35A4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GuessTheFlag;
-			productName = GuessTheFlag;
-			productReference = 66099C6B2BCC4D3A00B2F435 /* GuessTheFlag.app */;
+			name = MultiplicationQuiz;
+			productName = MultiplicationQuiz;
+			productReference = 661CFE3D2C29BC73008D35A4 /* MultiplicationQuiz.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		66099C632BCC4D3A00B2F435 /* Project object */ = {
+		661CFE352C29BC73008D35A4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					66099C6A2BCC4D3A00B2F435 = {
+					661CFE3C2C29BC73008D35A4 = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
-			buildConfigurationList = 66099C662BCC4D3A00B2F435 /* Build configuration list for PBXProject "GuessTheFlag" */;
+			buildConfigurationList = 661CFE382C29BC73008D35A4 /* Build configuration list for PBXProject "MultiplicationQuiz" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,42 +133,49 @@
 				en,
 				Base,
 			);
-			mainGroup = 66099C622BCC4D3A00B2F435;
-			productRefGroup = 66099C6C2BCC4D3A00B2F435 /* Products */;
+			mainGroup = 661CFE342C29BC73008D35A4;
+			productRefGroup = 661CFE3E2C29BC73008D35A4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				66099C6A2BCC4D3A00B2F435 /* GuessTheFlag */,
+				661CFE3C2C29BC73008D35A4 /* MultiplicationQuiz */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		66099C692BCC4D3A00B2F435 /* Resources */ = {
+		661CFE3B2C29BC73008D35A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66099C772BCC4D3B00B2F435 /* Preview Assets.xcassets in Resources */,
-				66099C732BCC4D3B00B2F435 /* Assets.xcassets in Resources */,
+				661CFE492C29BC75008D35A4 /* Preview Assets.xcassets in Resources */,
+				661CFE452C29BC75008D35A4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		66099C672BCC4D3A00B2F435 /* Sources */ = {
+		661CFE392C29BC73008D35A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66099C712BCC4D3A00B2F435 /* ContentView.swift in Sources */,
-				66099C6F2BCC4D3A00B2F435 /* GuessTheFlagApp.swift in Sources */,
+				661CFE502C29BD92008D35A4 /* GameState.swift in Sources */,
+				661CFE542C29BDFE008D35A4 /* QuestionsCountSelectionView.swift in Sources */,
+				661CFE562C29BE10008D35A4 /* GameInProgressView.swift in Sources */,
+				661CFE5C2C29C7E7008D35A4 /* Question.swift in Sources */,
+				661CFE432C29BC73008D35A4 /* ContentView.swift in Sources */,
+				661CFE5A2C29BF3E008D35A4 /* GameViewModel.swift in Sources */,
+				661CFE522C29BDD7008D35A4 /* MaxNumberSelectionView.swift in Sources */,
+				661CFE582C29BE1D008D35A4 /* GameFinishedView.swift in Sources */,
+				661CFE412C29BC73008D35A4 /* MultiplicationQuizApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		66099C782BCC4D3B00B2F435 /* Debug */ = {
+		661CFE4A2C29BC75008D35A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +236,7 @@
 			};
 			name = Debug;
 		};
-		66099C792BCC4D3B00B2F435 /* Release */ = {
+		661CFE4B2C29BC75008D35A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,16 +289,16 @@
 			};
 			name = Release;
 		};
-		66099C7B2BCC4D3B00B2F435 /* Debug */ = {
+		661CFE4D2C29BC75008D35A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = GuessTheFlag/GuessTheFlag.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MultiplicationQuiz/MultiplicationQuiz.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GuessTheFlag/Preview Content\"";
-				DEVELOPMENT_TEAM = MKQBB98QZG;
+				DEVELOPMENT_ASSET_PATHS = "\"MultiplicationQuiz/Preview Content\"";
+				DEVELOPMENT_TEAM = 3P73264FK9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -289,27 +317,26 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kuczynskihubert.GuessTheFlag;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuczynskihubert.MultiplicationQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SUPPORTS_MACCATALYST = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		66099C7C2BCC4D3B00B2F435 /* Release */ = {
+		661CFE4E2C29BC75008D35A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = GuessTheFlag/GuessTheFlag.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MultiplicationQuiz/MultiplicationQuiz.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GuessTheFlag/Preview Content\"";
-				DEVELOPMENT_TEAM = MKQBB98QZG;
+				DEVELOPMENT_ASSET_PATHS = "\"MultiplicationQuiz/Preview Content\"";
+				DEVELOPMENT_TEAM = 3P73264FK9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -328,39 +355,38 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kuczynskihubert.GuessTheFlag;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuczynskihubert.MultiplicationQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SUPPORTS_MACCATALYST = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		66099C662BCC4D3A00B2F435 /* Build configuration list for PBXProject "GuessTheFlag" */ = {
+		661CFE382C29BC73008D35A4 /* Build configuration list for PBXProject "MultiplicationQuiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				66099C782BCC4D3B00B2F435 /* Debug */,
-				66099C792BCC4D3B00B2F435 /* Release */,
+				661CFE4A2C29BC75008D35A4 /* Debug */,
+				661CFE4B2C29BC75008D35A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		66099C7A2BCC4D3B00B2F435 /* Build configuration list for PBXNativeTarget "GuessTheFlag" */ = {
+		661CFE4C2C29BC75008D35A4 /* Build configuration list for PBXNativeTarget "MultiplicationQuiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				66099C7B2BCC4D3B00B2F435 /* Debug */,
-				66099C7C2BCC4D3B00B2F435 /* Release */,
+				661CFE4D2C29BC75008D35A4 /* Debug */,
+				661CFE4E2C29BC75008D35A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 66099C632BCC4D3A00B2F435 /* Project object */;
+	rootObject = 661CFE352C29BC73008D35A4 /* Project object */;
 }
